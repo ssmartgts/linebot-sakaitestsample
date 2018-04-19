@@ -11,8 +11,8 @@ const tw = new Twitter({
   access_token_key: process.env.ACCESS_TOKEN_KEY, // Access Token
   access_token_secret: process.env.ACCESS_TOKEN_SECRET // Access Token Secret
 });
-const TARGET_HASHTAG = '#TrainDelay';
-//const TARGET_HASHTAG = '#NHK';
+//const TARGET_HASHTAG = '#TrainDelay';
+const TARGET_HASHTAG = '#NHK';
 
 const GET_WORD = '総武';
 //const GET_WORD = 'NHK';
